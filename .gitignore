@@ -1,0 +1,15 @@
+# Public repository: game files and local development evidence never belong here.
+dist/
+evidence/
+eft-decomp/
+.playwright-mcp/
+**/bin/
+**/obj/
+*.dll
+*.exe
+*.pdb
+*.cfg
+*.log
+.env*
+.vs/
+.idea/
