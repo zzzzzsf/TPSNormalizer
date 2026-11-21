@@ -42,4 +42,4 @@ PASS: compiled VisualTimingPatch target and Harmony callback argument metadata m
 PASS: 32 actual IL transformations / 49 sites, including both transpiler orders on overlapping camera methods.
 PASS: 417 assertions. Native in-game execution and mod-conflict testing NOT performed.
 Game Assembly-CSharp SHA256: FAEF6F0B9F142F9D047495EC3DCCFD5D6974AC048368DC7045955CF54B117982
-Built StableGame SHA256: 78D9AF5DDBD5B3550968325A12EEDBBD5534547412BDA7157CCA63D9E40C841E
+Built StableGame SHA256: 6869CB01641D893265E40F0DAC3D220ABAC8D541A72711FF6014D00335B9ED8E
