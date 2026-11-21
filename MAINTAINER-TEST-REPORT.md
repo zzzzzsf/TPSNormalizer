@@ -9,3 +9,7 @@ This is a maintainer-reported manual test result, not an independently observed 
 The runtime code and DLL are unchanged from the offline-verified 0.3.1 build. DLL SHA256: `78D9AF5DDBD5B3550968325A12EEDBBD5534547412BDA7157CCA63D9E40C841E`.
 
 The offline reports and validation stamp record what the automated checks actually performed; their `InGameTested: false` refers to those automated checks. The maintainer's separate manual confirmation is documented here. TEST-RESULTS.csv remains an unfilled detailed measurement template.
+
+## 0.3.2 metadata-only update
+The 0.3.2 build changes only the plugin version metadata and startup log text. Gameplay correction code is unchanged. The manual confirmation above applies to 0.3.1; a separate 0.3.2 in-game test has not been reported. Current DLL hashes and automated results are recorded in reports/validation.json.
+

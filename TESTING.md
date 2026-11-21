@@ -1,4 +1,4 @@
-# TPS Normalizer 0.3.1 游戏内测试指南
+# TPS Normalizer 0.3.2 游戏内测试指南
 
 本指南供你手动安装后实测。离线断言已通过，战局效果尚待确认。先使用单人练习环境，记录你的SPT/EFT版本及其他客户端Mod。
 
@@ -6,7 +6,7 @@
 
 1. 退出游戏，将包内BepInEx文件夹合并到选定的SPT安装，确认没有旧版重复DLL。
 2. 启动并进战局，F12找到 **TPS Normalizer**。设 `Enabled = true`、`Reference FPS = 120`，十个修复开关全开。关闭菜单再操作。
-3. `BepInEx/LogOutput.log`应出现 `TPS Normalizer 0.3.1: patches installed`。若有 `all TPS Normalizer patches removed`、安装异常或持续TPS Normalizer异常，先保留日志。菜单显示不能代替加载成功检查。
+3. `BepInEx/LogOutput.log`应出现 `TPS Normalizer 0.3.2: patches installed`。若有 `all TPS Normalizer patches removed`、安装异常或持续TPS Normalizer异常，先保留日志。菜单显示不能代替加载成功检查。
 4. 用游戏或已有的外部限帧方式让实际FPS先稳定30，再稳定120；性能不足则测30/60。分别反复开镜/退镜、自由观察后松开、左右侧倾、切换持枪侧、走动后停下，观察卡死、镜头跳变、FOV不复位或持续抖动。
 5. 固定同一实际FPS，将 `Enabled` 关闭，等当前动作结束再重做；重新开启再比较。重启检查设置保留。这只代表基础功能检查，不代表所有修复已验证。
 

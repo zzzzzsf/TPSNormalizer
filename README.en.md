@@ -1,4 +1,4 @@
-# TPS Normalizer 0.3.1
+# TPS Normalizer 0.3.2
 
 By Zenice · MIT · [中文](README.zh-CN.md) · [Source](https://github.com/zzzzzsf/TPSNormalizer)
 
@@ -42,7 +42,7 @@ The persistent GUID is `local.stablegame.fpsnormalizer`; configuration remains a
 
 Close the game and delete `BepInEx/plugins/StableGame/`. Optionally delete its configuration file. Restart the game to compare with the plugin completely unloaded. The master switch temporarily disables corrections.
 
-Documentation, licenses and reports in the ZIP do not need to be copied to the game directory.
+The runtime ZIP contains only the plugin DLL. Documentation, licenses and reports are provided separately in the repository/source archive.
 
 ## Limitations and testing
 
@@ -60,5 +60,5 @@ No update checks, remote APIs, analytics, external downloads, installers, driver
 - This is one mod by Zenice, developed with GPT-generated code as disclosed by the maintainer. No third-party textures or game binaries are bundled.
 - All downloads, features and updates are free. No donor-only content or early access.
 
-0.3.1 prepares publication metadata and documentation; gameplay correction behavior is unchanged from 0.3.0. Manual test confirmation is maintainer-reported; the offline test reports do not independently execute gameplay.
+0.3.2 updates version metadata and startup log text only; gameplay correction behavior is unchanged from 0.3.1. The manual confirmation refers to 0.3.1; no separate 0.3.2 gameplay test has been reported. Manual test confirmation is maintainer-reported; the offline test reports do not independently execute gameplay.
 

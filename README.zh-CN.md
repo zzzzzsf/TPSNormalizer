@@ -1,8 +1,8 @@
-# TPS Normalizer 0.3.1
+# TPS Normalizer 0.3.2
 
 作者：Zenice · MIT 许可证 · [English](README.en.md) · [源码](https://github.com/zzzzzsf/TPSNormalizer)
 
-0.3.1 为发布准备版本，插件元数据名改为 `Zenice-TPSNormalizer`，保留原 GUID、配置路径和修正行为。
+0.3.2 仅更新版本元数据与启动日志；运行包仅含 DLL。保留原 GUID、配置路径和修正行为，作者的游戏内实测确认针对 0.3.1。
 
 SPT 客户端实验版插件：减少本地玩家视角、武器动画及部分姿势逻辑随实际渲染帧率变化的差异。默认参考 **120 FPS**，可以在 **F12 → TPS Normalizer → 全局基准帧率 / Global reference FPS** 中改为 30–360。
 
