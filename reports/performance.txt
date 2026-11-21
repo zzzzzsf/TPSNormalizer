@@ -1,0 +1,20 @@
+TPS Normalizer 0.3.1 managed performance check
+Runtime: .NET 10.0.14; X64
+CPU: unavailable
+Release build: True
+20,000 warm-up operations; 7 rounds; median time/allocation. Timing is informational, not a native game FPS measurement.
+Frame scenario: 20 temporal responses, 4 recoil blends, 3 rotation limits, 2 tracking boundaries, visual callbacks, fixed sway integration, history add/read and passive diagnostics.
+Includes the decompiled real BetterSpring. Unity input, native SmoothDamp, game rendering, Harmony invocation and menu layout costs are not modeled.
+modeled_frame_30fps_diagnostics_False: 1.793 us/op; 0.000 B/op
+modeled_frame_120fps_diagnostics_False: 0.915 us/op; 0.000 B/op
+modeled_frame_360fps_diagnostics_False: 0.991 us/op; 0.000 B/op
+modeled_frame_30fps_diagnostics_True: 1.106 us/op; 9.374 B/op
+modeled_frame_120fps_diagnostics_True: 1.052 us/op; 2.428 B/op
+modeled_frame_360fps_diagnostics_True: 1.154 us/op; 0.873 B/op
+duration_ring_add_read: 0.127 us/op; 0.000 B/op
+previous_linked_history_add_read: 0.281 us/op; 56.000 B/op
+previous_settings_string_per_frame: 0.298 us/op; 368.000 B/op
+cached_fov_sample: 0.013 us/op; 0.000 B/op
+previous_recomputed_fov_sample: 0.243 us/op; 0.000 B/op
+Historical comparisons above reproduce only old linked-list averaging, per-frame settings serialization and FOV sampling; they are not full old-plugin benchmarks.
+PASS: bounded managed work/allocation gates. Actual Unity/Mono frametime and menu-open costs still require in-game A/B testing.

@@ -1,0 +1,6 @@
+PASS: 13417 behavior assertions using source-linked production helpers and the installed game's decompiled BetterSpring.
+Test engine shim: managed math/time/ownership boundaries, NOT native Unity or a live raid.
+FPS: 15,20,30,45,60,90,120,144,240,360. Physics: 50,60,120Hz. Full spring traces: under/critical/over damping, variable FPS, 250ms hitches.
+Also checked: ADS, head return, pitch limit, FOV endpoints, quaternion recoil, batched rotation samples, reference lean scheduling, time-weighted turn-sound averaging, master-off/remote ownership and raw vs sign-only input.
+Also checked: ten independent FPS paths, bilingual production drawers, numeric drafts/commit/cancel and save events, ring wrap/growth and cached FOV equivalence.
+Vector3.SmoothDamp boundary records the passed timestep; native Unity SmoothDamp dynamics are NOT executed by this host.

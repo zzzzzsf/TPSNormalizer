@@ -1,0 +1,5 @@
+PASS: 118 actual BepInEx / ConfigurationManager / Mono integration assertions.
+Runtime: 4.0.30319.42000; pointer bits=32; Unity editor Mono CLI, not the running EFT process.
+Actual game BepInEx 5.4.23.2 and ConfigurationManager 18.4 assemblies; actual release DLL loaded; no game writes.
+Checks real tag copying/custom drawer delegates/translations, hidden backing settings, saved-key persistence/ranges and private typed field access.
+Does not initialize the Unity engine, draw the native F12 window or execute gameplay patches.

@@ -1,0 +1,45 @@
+PASS: production TimingMath invariants at 30-360 FPS and reference FPS 30-360, pause, hitch and variable intervals.
+PASS: installed game's GameFramerate default = 120 (verified IL).
+PASS: compiled RotationPatch ran on actual EFT.MovementState.ClampRotation IL; 3 sites replaced; labels preserved; incompatible shape rejected.
+PASS: compiled AimSwayPatch ran on actual EFT.Animations.ProceduralWeaponAnimation.LerpCamera IL; 1 sites replaced; labels preserved; incompatible shape rejected.
+PASS: compiled AimSwayPatch ran on actual EFT.Animations.ProceduralWeaponAnimation.MountedWeaponCamera IL; 1 sites replaced; labels preserved; incompatible shape rejected.
+PASS: compiled RecoilPatch ran on actual EFT.Animations.ProceduralWeaponAnimation.method_19 IL; 4 sites replaced; labels preserved; incompatible shape rejected.
+PASS: compiled MotionTimingPatch ran on actual MotionEffector.FixedTracking IL; 3 sites replaced; labels preserved; incompatible shape rejected.
+PASS: compiled FixedBatchPatch ran on actual GClass909.ProcessEffectors IL; 1 sites replaced; labels preserved; incompatible shape rejected.
+PASS: compiled FixedBatchPatch ran on actual GClass911.ProcessEffectors IL; 1 sites replaced; labels preserved; incompatible shape rejected.
+PASS: compiled FixedBatchPatch ran on actual GClass912.ProcessEffectors IL; 1 sites replaced; labels preserved; incompatible shape rejected.
+PASS: compiled VisualTimingPatch ran on actual EFT.Animations.ProceduralWeaponAnimation.ProcessEffectors IL; 2 sites replaced; labels preserved; incompatible shape rejected.
+PASS: compiled TemporalPatch ran on actual EFT.Animations.ProceduralWeaponAnimation.UpdateAimWeight IL; 2 sites replaced; labels preserved; incompatible shape rejected.
+PASS: compiled TemporalPatch ran on actual EFT.Animations.ProceduralWeaponAnimation.ApplyAimingAlignment IL; 1 sites replaced; labels preserved; incompatible shape rejected.
+PASS: compiled TemporalPatch ran on actual EFT.Animations.ProceduralWeaponAnimation.ApplyComplexRotation IL; 1 sites replaced; labels preserved; incompatible shape rejected.
+PASS: compiled TemporalPatch ran on actual EFT.Animations.ProceduralWeaponAnimation.ApplySimpleRotation IL; 1 sites replaced; labels preserved; incompatible shape rejected.
+PASS: compiled TemporalPatch ran on actual EFT.Animations.ProceduralWeaponAnimation.LerpCamera IL; 2 sites replaced; labels preserved; incompatible shape rejected.
+PASS: compiled TemporalPatch ran on actual EFT.Animations.ProceduralWeaponAnimation.MountedWeaponCamera IL; 2 sites replaced; labels preserved; incompatible shape rejected.
+PASS: compiled TemporalPatch ran on actual EFT.Animations.ProceduralWeaponAnimation.StationaryCamera IL; 2 sites replaced; labels preserved; incompatible shape rejected.
+PASS: compiled TemporalPatch ran on actual EFT.Player.Look IL; 2 sites replaced; labels preserved; incompatible shape rejected.
+PASS: compiled TemporalPatch ran on actual EFT.Player.ManualUpdate IL; 1 sites replaced; labels preserved; incompatible shape rejected.
+PASS: compiled TemporalPatch ran on actual EFT.Player.HeightInterpolation IL; 1 sites replaced; labels preserved; incompatible shape rejected.
+PASS: compiled TemporalPatch ran on actual EFT.MovementContext.SmoothPoseLevel IL; 1 sites replaced; labels preserved; incompatible shape rejected.
+PASS: compiled TemporalPatch ran on actual EFT.MovementContext.SmoothPitchLimitations IL; 1 sites replaced; labels preserved; incompatible shape rejected.
+PASS: compiled TemporalPatch ran on actual EFT.MovementContext.method_14 IL; 1 sites replaced; labels preserved; incompatible shape rejected.
+PASS: compiled TemporalPatch ran on actual EFT.MovementState.ProcessUpperbodyRotation IL; 1 sites replaced; labels preserved; incompatible shape rejected.
+PASS: compiled TemporalPatch ran on actual EFT.MovementState.SetTilt IL; 1 sites replaced; labels preserved; incompatible shape rejected.
+PASS: compiled TemporalPatch ran on actual EFT.Player.method_23 IL; 1 sites replaced; labels preserved; incompatible shape rejected.
+PASS: compiled TemporalPatch ran on actual GClass909.ApplyFovAdjustments IL; 1 sites replaced; labels preserved; incompatible shape rejected.
+PASS: compiled TemporalPatch ran on actual GClass912.ApplyFovAdjustments IL; 1 sites replaced; labels preserved; incompatible shape rejected.
+PASS: compiled TemporalPatch ran on actual EFT.MovementContext.AlignToSurface IL; 1 sites replaced; labels preserved; incompatible shape rejected.
+PASS: compiled TemporalPatch ran on actual EFT.MovementContext.OnePointAlignment IL; 1 sites replaced; labels preserved; incompatible shape rejected.
+PASS: compiled TemporalPatch ran on actual EFT.MovementContext.TwoPointAlignment IL; 1 sites replaced; labels preserved; incompatible shape rejected.
+PASS: compiled TemporalPatch ran on actual EFT.MovementContext.RestoreDefaultAlignment IL; 2 sites replaced; labels preserved; incompatible shape rejected.
+PASS: compiled LeftStancePatch ran on actual PlayerBones.ShiftWeaponRoot IL; 4 sites replaced; labels preserved; incompatible shape rejected.
+PASS: compiled FovPatch target and Harmony callback argument metadata match actual game method.
+PASS: compiled AlternateInputPatch target and Harmony callback argument metadata match actual game method.
+PASS: compiled LeanPatch target and Harmony callback argument metadata match actual game method.
+PASS: compiled RotationCapturePatch target and Harmony callback argument metadata match actual game method.
+PASS: compiled RotationAveragePatch target and Harmony callback argument metadata match actual game method.
+PASS: compiled RotationPatch target and Harmony callback argument metadata match actual game method.
+PASS: compiled VisualTimingPatch target and Harmony callback argument metadata match actual game method.
+PASS: 32 actual IL transformations / 49 sites, including both transpiler orders on overlapping camera methods.
+PASS: 417 assertions. Native in-game execution and mod-conflict testing NOT performed.
+Game Assembly-CSharp SHA256: FAEF6F0B9F142F9D047495EC3DCCFD5D6974AC048368DC7045955CF54B117982
+Built StableGame SHA256: 78D9AF5DDBD5B3550968325A12EEDBBD5534547412BDA7157CCA63D9E40C841E
