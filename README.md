@@ -4,7 +4,7 @@ By Zenice · MIT · [中文](README.zh-CN.md) · [Source](https://github.com/zzz
 
 Experimental client plugin for **SPT 4.0.13 / EFT 0.16.9.40087**. It aims to reduce render-frame-rate differences in selected local-player camera, weapon-animation and stance paths.
 
-**Offline checks pass. In-game testing is still pending.** This is not an FPS booster, a frame limiter, or a guarantee that every frame-dependent behavior is corrected. Do not submit this build as gameplay-tested until the checks in TESTING.md have been completed on a clean target installation.
+**Offline checks pass. The maintainer reports successful in-game testing of the main functions in SPT 4.0.13.** See [the maintainer test report](MAINTAINER-TEST-REPORT.md) for scope and evidence limits. Clean-install verification, detailed measurements and Fika/SAIN runtime compatibility are not confirmed. This is not an FPS booster, a frame limiter, or a guarantee that every frame-dependent behavior is corrected.
 
 ## Features
 
@@ -60,5 +60,5 @@ No update checks, remote APIs, analytics, external downloads, installers, driver
 - This is one mod by Zenice, developed with GPT-generated code as disclosed by the maintainer. No third-party textures or game binaries are bundled.
 - All downloads, features and updates are free. No donor-only content or early access.
 
-0.3.1 prepares publication metadata and documentation; gameplay correction behavior is unchanged from 0.3.0. The repository may be public for review before the build is ready for Forge submission.
+0.3.1 prepares publication metadata and documentation; gameplay correction behavior is unchanged from 0.3.0. Manual test confirmation is maintainer-reported; the offline test reports do not independently execute gameplay.
 
