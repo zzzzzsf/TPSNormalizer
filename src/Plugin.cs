@@ -13,7 +13,7 @@ using UnityEngine;
 
 namespace StableGame
 {
-    [BepInPlugin(Id, "Zenice-TPSNormalizer", "0.3.1")]
+    [BepInPlugin(Id, "Zenice-TPSNormalizer", "0.3.2")]
     public sealed class Plugin : BaseUnityPlugin
     {
         public const string Id = "local.stablegame.fpsnormalizer";
@@ -34,7 +34,7 @@ namespace StableGame
             {
                 FixedStep.Validate();
                 harmony.PatchAll(typeof(Plugin).Assembly);
-                Logger.LogInfo("TPS Normalizer 0.3.1: patches installed (SPT 4.0.13 / EFT 0.16.9). Reference FPS=" + ReferenceFps.Value + ". Local player only. Diagnostic logging=" + DiagnosticLogging.Value);
+                Logger.LogInfo("TPS Normalizer 0.3.2: patches installed (SPT 4.0.13 / EFT 0.16.9). Reference FPS=" + ReferenceFps.Value + ". Local player only. Diagnostic logging=" + DiagnosticLogging.Value);
             }
             catch (Exception ex)
             {
